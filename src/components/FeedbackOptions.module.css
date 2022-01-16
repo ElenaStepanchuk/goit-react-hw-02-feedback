@@ -1,0 +1,28 @@
+.btn {
+  margin-right: 20px;
+  width: 180px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 30px;
+  border: none;
+  box-shadow: 5px -5px 5px 0px #543b06;
+}
+.btn_section:not(:last-child) {
+  margin-left: 20px;
+}
+.btn:nth-child(1) {
+  background-color: green;
+}
+.btn:nth-child(2) {
+  background-color: orange;
+}
+.btn:nth-child(3) {
+  background-color: red;
+}
+.btn:focus {
+  background-color: grey;
+}
+.btn:hover {
+  background-color: grey;
+}

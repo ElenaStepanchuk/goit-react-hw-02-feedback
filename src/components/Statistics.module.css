@@ -1,0 +1,48 @@
+.ul__style {
+  list-style: none;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+.statistics__good {
+  color: green;
+  border: 4px solid green;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 5px -5px 5px 0px #543b06;
+}
+.statistics__neutral {
+  color: orange;
+  border: 4px solid orange;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 5px -5px 5px 0px #543b06;
+}
+.statistics__bad {
+  color: red;
+  border: 4px solid red;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 5px -5px 5px 0px #543b06;
+}
+.statistics__total {
+  color: black;
+  border: 4px solid black;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 5px -5px 5px 0px #543b06;
+}
+.statistics__persent {
+  color: rgb(133, 20, 148);
+  border: 4px solid rgb(133, 20, 148);
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 5px -5px 5px 0px #543b06;
+}
