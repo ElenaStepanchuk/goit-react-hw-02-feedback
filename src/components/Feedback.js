@@ -25,6 +25,7 @@ export default class Feedback extends Component {
   render() {
     const total = this.countTotalFeedback();
     const percentage = this.countPositiveFeedbackPercentage();
+    const { good, neutral, bad } = this.state;
     return (
       <>
         <Section title="Please leave feedback" />
@@ -35,9 +36,9 @@ export default class Feedback extends Component {
         <Section />
         <Section title="Statistics" />
         <Statistics
-          good={this.state.good}
-          neutral={this.state.neutral}
-          bad={this.state.bad}
+          good={good}
+          neutral={neutral}
+          bad={bad}
           total={total}
           positivePercentage={percentage}
         />
